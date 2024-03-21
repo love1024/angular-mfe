@@ -1,0 +1,27 @@
+h2,
+hr {
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-color: #e6df81;
+  padding: 8px 16px;
+  margin: 1rem;
+  min-height: 5rem;
+  max-width: 15rem;
+}
+
+.note .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.note .description {
+  font-size: 1rem;
+}

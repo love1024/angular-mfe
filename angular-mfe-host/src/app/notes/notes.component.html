@@ -1,0 +1,10 @@
+<section>
+  <div class="container">
+    @for (note of notes; track $index) {
+    <div class="note">
+      <div class="heading">{{ note.heading }}</div>
+      <div class="description">{{ note.description }}</div>
+    </div>
+    }
+  </div>
+</section>
